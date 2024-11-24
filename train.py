@@ -33,7 +33,7 @@ def train_agent():
 
     # 4. Train the agent
     print("Training the DQN agent...")
-    model.learn(total_timesteps=1000000)
+    model.learn(total_timesteps=500000)
 
     # 5. stop the timer after training
     end_time = time.time()
