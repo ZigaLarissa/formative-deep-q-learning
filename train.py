@@ -1,4 +1,3 @@
-train.py
 import gymnasium as gym
 from stable_baselines3 import DQN
 from stable_baselines3.dqn.policies import CnnPolicy
