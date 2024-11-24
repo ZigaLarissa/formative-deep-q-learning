@@ -42,8 +42,8 @@ The project includes two scripts:
 
 1. Clone this repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone formative-deep-q-learning
+   cd formative-deep-q-learning
    ```
 
 ---
