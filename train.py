@@ -32,6 +32,7 @@ def train_agent():
     # 3. Train the agent
     print("Training the DQN agent...")
     model.learn(total_timesteps=50000)
+    model.learn(total_timesteps=500000)
 
     # 4. Save the trained policy
     model.save('policy.h5')
